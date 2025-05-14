@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from typing import List, Dict
-from app.modelos.historico_preco_modelo import ModeloRequestHistoricoPreco
-from app.servicos.historico_preco_servico import obter_historico_preco
+from modelos.historico_preco_modelo import ModeloRequestHistoricoPreco
+from servicos.historico_preco_servico import obter_historico_preco
 
 vRota = APIRouter()
 
