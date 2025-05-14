@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from typing import Dict
-from app.modelos.request_preco_modelo import ModeloRequestPreco
-from app.servicos.predict_servico import prever_precos
+from modelos.request_preco_modelo import ModeloRequestPreco
+from servicos.predict_servico import prever_precos
 
 vRota = APIRouter()
 

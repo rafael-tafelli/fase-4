@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.rotas import predict, historico_preco
+from rotas import predict, historico_preco
 
 vApp = FastAPI(title="Redes Neurais - Long Short Term Memory (LSTM)")
 
